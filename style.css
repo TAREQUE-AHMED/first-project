@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #eee8ae;
+    
+}
+blockquote{
+    background:#ddd;
+    margin-left:50px;
+    padding:10px;
+    padding-left:20px;
+    border-left:2px solid red;
+}
+.main_wrap{
+    width:100%;
+}
+.header_bg{
+    background:#FAB72A;
+    border-bottom:5px solid #5B710E;
+    border-top: 1px solid #5B710E;
+
+}
+#header{
+    background-color:#FAB72A;
+    padding:15px;
+    border-right:1px solid #5B710E;
+    border-left: 1px solid #5B710E;
+    
+
+    
+}
+#header h2{
+    color:#FFFFF1;
+    font-family:georgia;
+}
+#header p{
+    color:#788420;
+    font-family:georgia;
+    font-size:20px;
+}
+.nav_bg{
+    background:#fff ;
+    border-bottom:5px solid #5B710E;
+
+}
+#nav{
+    background-color: white;
+    height:38px;
+    border-right: 1px solid #6B710E;
+    border-left:1px solid #6B710E;
+  
+}
+#nav ul{
+    background-color: white;
+    list-style-type: none;
+    z-index: 999;
+}
+
+#nav ul li{
+        float: left;
+        border-right: 1px solid #6B710E;
+        border-bottom: 5px solid #6B710E;
+       
+}
+#nav ul li:last-child{
+    border:none;
+}
+#nav ul li a{
+    text-decoration: none;
+    color:#6B710E;
+    display:block;
+    padding:10px 20px;
+    font-family:arial;
+    transition:0.3 all ease ;
+    
+}
+#nav ul li a:hover{
+    color:#fff;
+    background-color:#6B710E;
+    
+}
+#nav ul li{
+    position:relative;
+}
+#nav ul li ul{
+        position: absolute;
+        left: -99999px;
+        background-color: #fff;
+}
+#nav ul li:hover ul{
+    left:0;
+}
+#nav ul li ul li:first-child{
+    border-top:1px solid #6B710E;
+    
+}
+#nav ul li ul li{
+    float:none;
+    border-right:none;
+    border-bottom:1px solid #6B710E;
+    width:150px;
+    position:relative;
+}
+#nav ul li ul li ul{
+    position:absolute;
+    top:-999999px;
+
+}
+#nav ul li ul li:hover ul{
+    top:-1px;
+    left:150px;
+
+}
+#nav ul li ul li ul li{
+    border-left:1px solid #6B710E;
+
+    
+
+}
+#nav ul li ul li ul li:first-child{
+    border-top:none;
+}
+#nav ul li ul li ul li:last-child{
+    border-left:1px solid #6B710E;
+}
+.content_bg{
+    background: #fff;
+}
+#img_wrap p{
+ 
+    margin-top:0;
+    width:500px;
+}
+#img_wrap{
+    margin-top:10px;
+}
+#main_article{
+    margin-bottom:20px;
+    border-bottom:1px solid red;
+    overflow:hidden;
+}
+#content_wrapper{
+    background-color: white;
+    padding:10px;
+    overflow:hidden;
+    border-right:1px solid #000;
+    border-left:1px solid #000;
+}
+#content{
+       width:600px;
+       margin-right:20px;
+       float:left;
+}
+#content p{
+    margin:15px 0;
+}
+#content h2{
+    color:#6B710E;
+    margin-bottom:8px;
+    font-family:arial;
+}
+#content h3{
+    color:#6B710E;
+    margin-bottom:8px;
+    font-family:arial;
+    font-size:25px;
+}
+#content img{
+    width:450px;
+}
+#slider_wrapper{
+    border-right:1px solid #fff;
+    border-left:1px solid #fff;
+    
+}
+.slider_bg{
+          background:#000;
+}
+
+#sidebar{
+    width:260px;
+    float:left;
+    padding:20px;
+}
+#sidebar ul li a{
+    text-decoration:none;
+    color:#6B710E;
+    padding:3px;
+    display:block;
+  
+}
+#sidebar ul li a:hover{
+    color:#FAB72A;
+} 
+#sidebar h2{
+    color:#6B710E;
+    margin-bottom:14px;
+}
+.footer_bg{
+    background:#635548 ;
+}
+#footer{
+    background-color: #635548;
+    text-align: center;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+figure{
+    width:450px;
+    padding:10px;
+    background:dimgray;
+    margin:0 auto;
+    display:block;
+}
+figcaption{
+    font-size:20px;
+    text-align: center;
+    color:aqua;
+    font-family:arial;
+    font-weight: bold;
+}
+figcaption:hover{
+    color:blueviolet;
+}
+#img_wrap img{
+    width:75px;
+    height: 75px;
+    background: #fff;
+    border:1px solid #ddd;
+    padding:3px;
+    margin-right:10px;
+    float:left;
+
+}
+#main_sidebar{
+    border-bottom:1px solid #6B710E;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+#main_sidebar ul li{
+    padding-left:25px;
+}
